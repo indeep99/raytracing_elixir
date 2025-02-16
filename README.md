@@ -1,21 +1,21 @@
-# Raytracing
+# Ray Tracing in One Weekend - Elixir Implementation
 
-**TODO: Add description**
+This project is an implementation of the *Ray Tracing in One Weekend* tutorial using Elixir. The goal is to build a simple ray tracer from scratch, learning about rendering, lighting, and materials along the way.
 
-## Installation
+## Current Progress
+I am currently at the step where a sphere is colored according to its normal vectors.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `raytracing` to your list of dependencies in `mix.exs`:
+![Rendered Sphere](sphere.png)
 
-```elixir
-def deps do
-  [
-    {:raytracing, "~> 0.1.0"}
-  ]
-end
-```
+## Usage
+Modify the `raytracing.ex` file to experiment with different rendering techniques.
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/raytracing>.
+## Next Steps
+- Implement simple diffuse shading
+- Add reflections and materials
+- Introduce multiple objects and a scene
+
+## References
+- *Ray Tracing in One Weekend* by Peter Shirley
+
 
